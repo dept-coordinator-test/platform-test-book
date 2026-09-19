@@ -1,0 +1,42 @@
+/* Suggest-an-edit form for the platform test book. Colours are Quartz's theme
+   variables, so the form follows quartz.config.yaml. */
+.tb-se-open {
+  margin: 0 0 0.5rem 0.75rem;
+  padding: 0.15rem 0.6rem;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--secondary);
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tb-se-open:hover { border-color: var(--secondary); }
+.tb-se-dialog {
+  width: min(34rem, calc(100vw - 2rem));
+  padding: 1.25rem;
+  color: var(--darkgray);
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+}
+.tb-se-dialog::backdrop { background: rgba(0, 0, 0, 0.35); }
+.tb-se-dialog h2 { margin: 0 0 0.25rem; }
+.tb-se-page { margin: 0 0 1rem; font-size: 0.85rem; color: var(--gray); }
+.tb-se-field { display: block; margin-bottom: 0.75rem; }
+.tb-se-field span { display: block; font-size: 0.85rem; font-weight: 600; }
+.tb-se-field input,
+.tb-se-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.4rem;
+  font: inherit;
+  border: 1px solid var(--lightgray);
+  border-radius: 4px;
+}
+/* Off-screen rather than display:none, as publish.js does, so naive bots still fill it. */
+.tb-se-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.tb-se-status { min-height: 1.2em; font-size: 0.9rem; overflow-wrap: anywhere; }
+.tb-se-actions { display: flex; justify-content: flex-end; gap: 0.5rem; }
+.tb-se-actions button { font: inherit; padding: 0.3rem 0.8rem; cursor: pointer; }
