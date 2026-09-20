@@ -7,7 +7,7 @@ platform's shared services — the suggest-edit function, the author's console,
 and the registry — with two books instead of one. Nothing here is meant for
 readers, and the text is placeholder.
 
-The real textbook is at [confused4now.org](https://confused4now.org).
+The real textbook is at [social-research-methods.confused4now.org](https://social-research-methods.confused4now.org).
 
 ## Chapters
 

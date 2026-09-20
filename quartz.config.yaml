@@ -227,7 +227,7 @@ plugins:
     enabled: true
     options:
       links:
-        Not a textbook (platform test): https://confused4now.org
+        Not a textbook (platform test): https://social-research-methods.confused4now.org
         Licence (CC-BY-SA-4.0): https://creativecommons.org/licenses/by-sa/4.0/
   - source: github:quartz-community/recent-notes
     enabled: false
