@@ -2,7 +2,7 @@
 
 **Not a textbook.** A throwaway second book, registered as `platform-test-book`, that
 tests the platform's shared services with two books for the first time
-(`platform-registry-design/MULTI-BOOK-HOSTING.md` §6). The text is placeholder.
+(`textbook-registry/design/MULTI-BOOK-HOSTING.md` §6). The text is placeholder.
 
 - **Site:** https://platform-test-book.pages.dev (Cloudflare Pages, project `platform-test-book`)
 - **Registry status:** `preview`. It resolves in the suggest-edit function and appears

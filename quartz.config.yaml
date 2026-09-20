@@ -2,7 +2,7 @@
 #
 # Platform test book — Quartz v5 configuration.
 # A throwaway second BOOK (not a department edition) that exercises the shared
-# services with two books (platform-registry-design/MULTI-BOOK-HOSTING.md §6).
+# services with two books (textbook-registry/design/MULTI-BOOK-HOSTING.md §6).
 # Started from textbook-edition-template @ 3675313; it has no upstream to sync
 # from. Theme and plugins are the template's, except where marked "test book:".
 
